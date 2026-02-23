@@ -1,0 +1,184 @@
+body { background-color: #1E1F26;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+   
+}
+
+
+header{   
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    align-items: center;    
+}
+
+nav ul{    
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+nav ul li {
+    list-style: none;  
+    white-space: nowrap;
+}
+.container { 
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: space-around;
+  
+    margin: 0 auto;
+}
+
+.perfil {  
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+   ;
+    }
+    
+    
+
+.foto {
+    height: 100px;
+    width: 50px;
+    /* background-color: blue; */
+    justify-content: space-between;
+}
+.foto img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+
+.conocimientos{
+    
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    gap: 30px;
+    
+
+}
+
+.cont {
+   background-color:  #2A2B33;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   justify-content: center;
+   padding: 5% 5%;
+
+   margin-bottom: 5%;
+ 
+
+}
+.titulo { 
+    text-align: center;
+}
+.card { 
+   
+    height: 80px;
+    width: auto;
+      
+   
+ 
+}
+
+.card img{
+    height: 100%;
+    border-radius: 50%;
+}
+
+.yo {
+    text-align: justify;
+    
+}
+.yo p {
+    text-indent: 15px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.formulario{
+    background-color: #2A2B33;
+    width: 100%;
+    
+
+}
+
+.formulario:hover{
+     transform: translateY(-2px);
+}
+form{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 30px;
+}
+
+form h2 {
+    text-align: center;
+}
+
+form input, form textarea {
+    border-radius: 8px;
+    padding: 8px;
+    border: 1px solid #444;
+    background-color: #1E1F26;
+    color: white;
+}
+
+form textarea {
+    min-height: 120px;
+    resize: none;
+}
+
+
+form input:focus,
+form textarea:focus {
+    border-color: #00ADB5;
+    box-shadow: 0 0 8px rgba(0, 173, 181, 0.5);
+}
+form input[type="submit"]:hover {
+    background-color: #019ca3;
+    transform: translateY(-2px);}
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+
+}
+.footer p {
+    text-align: center;
+}
+
+.social  {
+    padding: 10px;
+    display: flex;
+    width: auto;
+    
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.cont:hover{
+    transform: translateY(-2px);
+}
+
+
+
+

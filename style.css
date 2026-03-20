@@ -155,10 +155,15 @@ main {
 }
 .menuresponsive{
     
-    width: 0;
+    display: none;
+    width: 100%;
+    padding: 10px;
     background-color: #ff5722;
         
     }
+   
+
+
 
 /* Si la pantalla es mas chica */
 @media (min-width: 1024px){
@@ -190,15 +195,18 @@ main {
         justify-content: space-between;
         align-items: center;
         background-color: #ff5722;
+       
        padding: 0 15px;
     }
     .responsive{
+        
         display: flex;
         gap: 20px;
         align-items: center;
         margin: 20px;
     }
     .responsive i {
+        
         font-size: 26px;
         color: #ffffff;
         cursor: pointer;
@@ -214,8 +222,12 @@ main {
         padding: 10px;
     }
     .menuresponsive{
+        position: absolute;
+        display: none;
         width: 100%;
-        padding: 10px;
+        top: 100%;
+ 
+        
     }
    .menuresponsive .links a{
     display: flex;
@@ -224,6 +236,9 @@ main {
     .hambur{
         background-color: black;
 
+    }
+      #x {
+        display: none;
     }
 
 

@@ -5,7 +5,11 @@ body {
     min-height: 100vh;
 }
 
-
+header{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
 .barra {
    position: fixed; 
   
@@ -134,13 +138,93 @@ main {
     width: 100%;
    background-position: center;
     background-repeat: no-repeat;
+    
 }
 
 .titulo {
   
-    color: white;}
+    color: white;
+}
     
 .titulo{
     text-align: center;
 }
 
+.navresponsive {
+    display: none;
+}
+.menuresponsive{
+    
+    width: 0;
+    background-color: #ff5722;
+        
+    }
+
+/* Si la pantalla es mas chica */
+@media (min-width: 1024px){
+
+}
+@media (max-width: 768px){
+    body{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        background-color: aqua;
+        margin: 0;
+        padding: 0;
+       
+    }
+    main{
+        margin-left: 0;
+        width: 100%;
+    }
+    .hero{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+    }
+    .navresponsive{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ff5722;
+       padding: 0 15px;
+    }
+    .responsive{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin: 20px;
+    }
+    .responsive i {
+        font-size: 26px;
+        color: #ffffff;
+        cursor: pointer;
+        
+    }
+
+    .responsive button{
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .barra {
+        display: none;
+        padding: 10px;
+    }
+    .menuresponsive{
+        width: 100%;
+        padding: 10px;
+    }
+   .menuresponsive .links a{
+    display: flex;
+    justify-content: center;}
+
+    .hambur{
+        background-color: black;
+
+    }
+
+
+}

@@ -207,6 +207,7 @@ main {
 }
 .btnCv{
     display: flex;
+    gap: 20px;
 }
 .btnCv a{
     text-decoration: none;

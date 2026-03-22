@@ -137,7 +137,7 @@ main {
     align-items: center;
     background: 
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url("./img/d68a92e6-80ac-4fb9-8901-eb9c5b5ec1f9.png");
+        url("./assets/img/d68a92e6-80ac-4fb9-8901-eb9c5b5ec1f9.png");
       
     background-size: cover;
      min-height: calc(100vh - 70px); /* Asegura que el fondo cubra siempre la pantalla */
